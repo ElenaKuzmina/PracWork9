@@ -24,16 +24,19 @@ namespace PracWork9.Pages
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// табулирование функции циклом While 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCalculate_Click(object sender, RoutedEventArgs e)
         {
-            //табулирование функции циклом While 
+            
             double x0 = Convert.ToDouble(txtX0.Text);
             double xk = Convert.ToDouble(txtXK.Text);
             double dx = Convert.ToDouble(txtDX.Text);
             double a = Convert.ToDouble(txtA.Text);
-
-            // Цикл для табулирования функции
+                      
             double x = x0;
             while (x <= (xk + dx / 2))
             {
