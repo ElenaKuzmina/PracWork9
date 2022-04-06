@@ -17,7 +17,8 @@
         <StackPanel Grid.Row="0"
                     Orientation="Vertical"
                     VerticalAlignment="Center">
-            <TextBlock Text="Цикл DoWhile"/>
+            <TextBlock Text="Цикл DoWhile"
+                       Style="{StaticResource styleHeader}"/>
             <StackPanel Orientation="Horizontal"
                         HorizontalAlignment="Left">
                 <TextBlock Text="X0="

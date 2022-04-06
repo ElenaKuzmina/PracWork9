@@ -11,6 +11,16 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <TextBlock Text="Cтудент Иванов И.И. Вариант №00"
+                       Style="{StaticResource styleHeader}"/>
+            <Image Source="./Resourse/Task.bmp"
+                   Stretch="Fill"
+                   Width="200"
+                   Height="100"
+                   Margin="10"/>
+        </StackPanel>
         <Frame Grid.Row="1"
                Name="frmMain"
                NavigationUIVisibility="Hidden">

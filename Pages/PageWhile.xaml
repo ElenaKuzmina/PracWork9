@@ -17,40 +17,41 @@
         <StackPanel Grid.Row="0"
                     Orientation="Vertical"
                     VerticalAlignment="Center">
-            <TextBlock Text="Цикл While"/>
+            <TextBlock Text="Цикл While" 
+                      Style="{StaticResource styleHeader}"/>
             <StackPanel Orientation="Horizontal"
                         HorizontalAlignment="Left">
                 <TextBlock Text="X0="
-                           Margin="5"
-                           Width="100"/>
+                           Style="{StaticResource txtStyle}"/>
                 <TextBox Name="txtX0"
+                         Text="1"
                          Margin="5"
                            Width="100"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal"
                         HorizontalAlignment="Left">
                 <TextBlock Text="XK="
-                           Margin="5"
-                           Width="100"/>
+                           Style="{StaticResource txtStyle}"/>
                 <TextBox Name="txtXK"
+                         Text="4"
                          Margin="5"
                            Width="100"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal"
                         HorizontalAlignment="Left">
                 <TextBlock Text="DX="
-                           Margin="5"
-                           Width="100"/>
+                           Style="{StaticResource txtStyle}"/>
                 <TextBox Name="txtDX"
+                         Text="0,2"
                          Margin="5"
                            Width="100"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal"
                         HorizontalAlignment="Left">
                 <TextBlock Text="A="
-                           Margin="5"
-                           Width="100"/>
+                           Style="{StaticResource txtStyle}"/>
                 <TextBox Name="txtA"
+                         Text="0,75"
                          Margin="5"
                            Width="100"/>
             </StackPanel>
